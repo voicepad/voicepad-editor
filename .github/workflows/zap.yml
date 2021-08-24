@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Run OWASP Action
         id: run_owasp
-        uses: zaproxy/action-baseline@master
+        uses: voicepad/action-baseline@master
         with:
           target: 'https://www.example.com'
-          allow_issue_writing: true
+          allow_issue_writing: false
